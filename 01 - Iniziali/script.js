@@ -5,7 +5,7 @@ const names = ["Anna", "Luca", "Marco", "Adele", "Giovanni", "Alessandra"];
 
 // Dichiara la funzione qui.
 
-function isCapital(name) {
+function isCapital(names) {
     const firstLetter = []
     for (let i = 0; i < names.length; i++ ) {
     const name = names[i]
@@ -22,6 +22,7 @@ function isCapital(name) {
 
 
 // Invoca la funzione qui e stampa il risultato in console
-console.log(isCapital(names))
+const result = isCapital(names)
+console.log(result)
 
 //Risultato atteso: ["A", "L", "M", "A", "G", "A"]
